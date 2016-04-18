@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+I found that viewing a diff between two different versions of a file made finding the differences much simpler. I didn't have to read the files line by line to try to spot any change. Only the sections that had been edited were displayed. This pinpointed what I had to look at and made it easier to find all the differences.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I think being able to track your thought process as you made changes to your file would give you the ability to see where you made mistakes and how you corrected them. You can see what methods changed the most or not at all. Along with any that you might have removed all together.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+I think the pros of choosing when to commit are having more control over versions, making sure its complete code before committing, and most important that the change in code is not too big or too small. The cons are that the changes are not automatically saved and you must remember to commit when your done. Another con is if you finish writing new code and the IDE crashes before you can commit. So in that sense auto saving is a pro.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+I think its because Git was made for version control of code while the others were designed for treating each file independently. There was no reason for them to design the commits for multiple files because no one would intend to use it that way.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Use git log to list all of the commits, then use git diff to display the differences in the commits. Another option is to use git log --stat for a quick look at how many changes were made in each commit.
+
+How might using version control make you more confident to make changes that could break something?
+
+I would be more confident to make changes because I would know that I have a stable backup to revert to if anything goes wrong.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try to commit a repository using git.
